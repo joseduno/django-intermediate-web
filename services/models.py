@@ -13,7 +13,7 @@ class Service(models.Model):
     class Meta:
         verbose_name = 'Servicio'
         verbose_name_plural = 'Servicios'
-        ordering = ['-updated']
+        ordering = ['updated']
 
     def __str__(self):
         return self.title
